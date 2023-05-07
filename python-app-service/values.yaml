@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: mislavhuddle/helloflask
   pullPolicy: IfNotPresent
-  tag: 5fb43683ca51d8a885c41649232162e3cd380dc7
+  tag: 9bcfe93a97068ec2ed66bebffa7694f320b103e1
 
 imagePullSecrets: []
 nameOverride: "hello-flask-app"
