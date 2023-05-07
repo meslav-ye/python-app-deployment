@@ -4,6 +4,9 @@ metadata:
   name: hello-flask
   namespace: argocd
 spec:
+  syncPolicy:
+    automated:
+      prune: true
   project: default
   source:
     repoURL: https://github.com/meslav-ye/python-app-deployment.git
